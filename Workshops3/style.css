@@ -1,0 +1,40 @@
+.divtitulo {
+    background-color: rgb(209, 255, 251);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    display: grid;
+    justify-content: space-around;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(209, 255, 251);
+}
+
+.titulo {
+    color: #333;
+}
+
+.logo {
+    width: 200px;
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.button {
+    border-radius: 5px;
+    background-color: #98f7ea;
+    border: solid;
+    display: block;
+    margin: 10px 0;
+    color: #007bff;
+    text-decoration: none;
+    padding: 1rem;
+
+    &:hover {
+        text-decoration: underline;
+    }
+
+}
