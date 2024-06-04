@@ -1,40 +1,38 @@
 .divtitulo {
-    background-color: rgb(209, 255, 251);
-    text-align: center;
-    font-family: Arial, sans-serif;
-    display: grid;
-    justify-content: space-around;
+    background-color: rgb(255, 255, 255); /* Establece el color de fondo en blanco para el contenedor con esta clase */
+    text-align: center; /* Centra el texto dentro del contenedor */
+    font-family: Arial, sans-serif; /* Aplica la fuente Arial o una fuente sans-serif como respaldo */
+    display: grid; /* Utiliza el sistema de cuadrícula CSS para el diseño del contenedor */
+    justify-content: space-around; /* Distribuye los elementos dentro del contenedor de manera equitativa */
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: rgb(209, 255, 251);
+    font-family: Arial, sans-serif; /* Aplica la fuente Arial o una fuente sans-serif como respaldo para todo el cuerpo de la página */
+    background-color: rgb(248, 248, 248); /* Establece un color de fondo gris claro para toda la página */
 }
 
 .titulo {
-    color: #333;
+    color: #333; /* Establece el color del texto en un gris oscuro para los elementos con esta clase */
 }
 
 .logo {
-    width: 200px;
-    height: 150px;
-    display: block;
-    margin: 0 auto;
-
+    width: 200px; /* Define un ancho fijo de 200 píxeles para la imagen o elemento con esta clase */
+    height: 150px; /* Define una altura fija de 150 píxeles */
+    display: block; /* Hace que el elemento sea un bloque, ocupando todo el ancho disponible */
+    margin: 0 auto; /* Centra horizontalmente el elemento */
 }
 
 .button {
-    border-radius: 5px;
-    background-color: #98f7ea;
-    border: solid;
-    display: block;
-    margin: 10px 0;
-    color: #007bff;
-    text-decoration: none;
-    padding: 1rem;
+    border-radius: 5px; /* Redondea las esquinas del botón */
+    background-color: #7790c7; /* Establece un color de fondo azul claro para el botón */
+    border: solid; /* Aplica un borde sólido al botón */
+    display: block; /* Hace que el botón sea un bloque, ocupando todo el ancho disponible */
+    margin: 10px 0; /* Añade un margen de 10 píxeles en la parte superior e inferior del botón */
+    color: #002a85; /* Establece el color del texto del botón en azul oscuro */
+    text-decoration: none; /* Elimina cualquier subrayado o estilo de enlace en el texto del botón */
+    padding: 1rem; /* Añade un relleno de 1 rem alrededor del contenido del botón */
 
     &:hover {
-        text-decoration: underline;
+        text-decoration: underline; /* Añade un subrayado al texto del botón cuando el cursor está sobre él */
     }
-
 }
