@@ -1,28 +1,12 @@
-.divtitulo {
+.portada {
     background-color: rgb(255, 255, 255); 
     text-align: center; 
     font-family: Arial, sans-serif; 
     display: grid; /* Utiliza el sistema de cuadrícula CSS para el diseño del contenedor */
     justify-content: space-around; /* Distribuye los elementos dentro del contenedor de manera equitativa */
 }
-/*atributo*/
-input[type="text"]{
-    text-align: center;
-    border: 1px solid black; 
-}
-/*Pseudo*/
-p::first-line {
-    color: #002a85;
-    font-family:Arial, Helvetica, sans-serif;
-}
-p::after {
-    content: " -Esperamos que la página le haya funcionado.";
-    display: block;
-    color: #555;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 10px;
-}
-/*variables*/
+
+
 element{
     --main-bg-color:black !important;
 }
@@ -36,20 +20,20 @@ body {
     background-color: var(--main-bg-color); 
 }
 
-.logo {
-    width: 200px; /* Define un ancho fijo de 200 píxeles para la imagen o elemento con esta clase */
-    height: 150px; /* Define una altura fija de 150 píxeles */
+.prin {
+    width: 450px; /* Define un ancho fijo de 200 píxeles para la imagen o elemento con esta clase */
+    height: 350px; /* Define una altura fija de 150 píxeles */
     display: block; /* Hace que el elemento sea un bloque, ocupando todo el ancho disponible */
     margin: 0 auto; /* Centra horizontalmente el elemento */
 }
 
 .button {
     border-radius: 5px; /* Redondea las esquinas del botón */
-    background-color: #7790c7; 
+    background-color: #0c0c0c; 
     border: solid; /* Aplica un borde sólido al botón */
     display: block; /* Hace que el botón sea un bloque, ocupando todo el ancho disponible */
     margin: 10px 0; 
-    color: #002a85; 
+    color: #f0f2f7; 
     text-decoration: none; /* Elimina cualquier subrayado o estilo de enlace en el texto del botón */
     padding: 1rem; /* Añade un relleno de 1 rem alrededor del contenido del botón */
 
