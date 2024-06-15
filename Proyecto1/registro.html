@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>User Registration</h2>
+        <div class="regis">
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="FirstName">First Name:</label>
+                    <input type="text" id="FirstName" name="FirstName">
+                </div>
+                <div class="form-group">
+                    <label for="LastName">Last Name:</label>
+                    <input type="text" id="LastName" name="LastName">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="Email">Email:</label>
+                <input type="email" id="Email">
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="Password">Password:</label>
+                    <input type="text" id="Password" name="FirstName">
+                </div>
+                <div class="form-group">
+                    <label for="Repeat Password">Repeat Password:</label>
+                    <input type="text" id="Repeat Password" name="LastName">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="Address">Addres:</label>
+                <input type="text" id="Addres">
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="Country">Country:</label>
+                    <select id="Country" name="Country">
+                        <option value="">Seleccione su país</option>
+                        <option value="ar">Argentina</option>
+                        <option value="br">Brasil</option>
+                        <option value="cl">Chile</option>
+                        <option value="co">Colombia</option>
+                        <option value="mx">México</option>
+                        <option value="es">España</option>
+                        <option value="us">Estados Unidos</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="State">State:</label>
+                    <input type="text" id="State" name="State">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="City">City:</label>
+                    <input type="text" id="City" name="City">
+                </div>
+                <div class="form-group">
+                    <label for="Phone Number">Phone Number:</label>
+                    <input type="text" id="Phone Number" name="Phone Number">
+                </div>
+            </div>
+            <div class="form-group full-width">
+                <button type="button" onclick="registrar()">Enviar</button>
+            </div>
+            <div class="form-row links">
+                <div class="form-group link-group">
+                    <label>Already an User? <a href="login.html">Login Here</a></label>
+                </div>
+                <div class="form-group link-group">
+                    <label>Register as Driver? <a href="register-driver.html">Click here</a></label>
+                </div>
+            </div>
+
+            <script src="scripts.js"></script>
+</body>
+
+</html>
