@@ -1,4 +1,4 @@
-/* styles.css */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -28,7 +28,7 @@ header h1 {
     position: absolute;
     top: 0;
     right: 0;
-    width: 150px; /* Ajusta el tamaño según lo desees */
+    width: 150px; 
     height: auto;
 }
 

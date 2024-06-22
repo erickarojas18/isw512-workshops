@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesión</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container bordered">
+        <img src="carro.png" alt="Car" class="car-image">
+        <h1>Inicio de Sesión</h1>
+        <div class="login-form form-small">
+            <label for="username">User Name:</label>
+            <input type="text" id="username" name="username" class="form-small">
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" class="form-small">
+            
+            <div class="button-container">
+                <button type="button" onclick="login()" class="small-button">Login</button>
+            </div>
+            
+            <p>Not an User? <a href="registro.html" class="link-group">Register Now</a></p>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-links">
+            <a href="index.html">Home</a> |
+            <a href="rides.html">Rides</a> |
+            <a href="bookings.html">Bookings</a> |
+            <a href="settings.html">Settings</a> |
+            <a href="login.html">Login</a> |
+            <a href="register.html">Register</a>
+        </div>
+        <div class="copy-text">&copy; aventones.com</div>
+    </footer>
+</body>
+
+</html>

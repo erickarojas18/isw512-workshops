@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Rides</title>
+    <link rel="stylesheet" href="style.css"> <!-- Enlace al archivo CSS externo -->
+</head>
+<body>
+    <!-- Contenedor principal -->
+    <div class="container">
+        <img src="carro.png" alt="Car" class="car-image">
+        <!-- Barra de navegación -->
+        <nav class="navbar">
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#rides" class="nav-link">Rides</a>
+            <a href="#booking" class="nav-link">Booking</a>
+            <input type="text" class="search-input" placeholder="Buscar...">
+        </nav>
+
+        <!-- Título principal -->
+        <h1>My Rides</h1>
+
+        <!-- Botón para nueva entrada -->
+        <div class="button-container">
+            <button class="new-ride-btn">New Ride</button>
+        </div>
+
+        <!-- Tabla de rides -->
+        <table class="rides-table">
+            <thead>
+                <tr>
+                    <th>From</th>
+                    <th>To</th>
+                    <th>Seats</th>
+                    <th>Car</th>
+                    <th>Free</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td data-label="From">New York</td>
+                    <td data-label="To">Boston</td>
+                    <td data-label="Seats">3</td>
+                    <td data-label="Car">Toyota Camry</td>
+                    <td data-label="Free">Yes</td>
+                    <td data-label="Actions"><a href="#">Edit</a> | <a href="#">Delete</a></td>
+                </tr>
+                <tr>
+                    <td data-label="From">Los Angeles</td>
+                    <td data-label="To">San Francisco</td>
+                    <td data-label="Seats">2</td>
+                    <td data-label="Car">Honda Civic</td>
+                    <td data-label="Free">No</td>
+                    <td data-label="Actions"><a href="#">Edit</a> | <a href="#">Delete</a></td>
+                </tr>
+                <!-- Más filas de datos -->
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
